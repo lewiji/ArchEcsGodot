@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://6a3sg06871dl"]
+
+[ext_resource type="Script" path="res://addons/arch_ecs_godot/Scenes/EcsList.cs" id="1_mhrjg"]
+
+[node name="EcsList" type="PanelContainer"]
+size_flags_horizontal = 3
+script = ExtResource("1_mhrjg")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="ListTitle" type="Label" parent="MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "EcsList"
+
+[node name="ItemList" type="ItemList" parent="MarginContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3

@@ -1,0 +1,19 @@
+<Project Sdk="Godot.NET.Sdk/4.2.1">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net7.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'ios' ">net8.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <LangVersion>12</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Arch" Version="1.2.7.1-alpha" />
+    <PackageReference Include="Arch.AOT.SourceGenerator" Version="1.0.0" />
+    <PackageReference Include="Arch.EventBus" Version="1.0.2" />
+    <PackageReference Include="Arch.Persistence" Version="1.0.3" />
+    <PackageReference Include="Arch.Relationships" Version="1.0.1" />
+    <PackageReference Include="Arch.System" Version="1.0.2" />
+    <PackageReference Include="Arch.System.SourceGenerator" Version="1.1.2" />
+  </ItemGroup>
+</Project>

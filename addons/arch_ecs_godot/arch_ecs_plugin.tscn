@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=3 uid="uid://bcsv5lb4hkk1x"]
+
+[ext_resource type="PackedScene" uid="uid://bcha5vmpob21m" path="res://addons/arch_ecs_godot/Scenes/EcsList.tscn" id="1_00eqw"]
+[ext_resource type="Script" path="res://addons/arch_ecs_godot/Scenes/WorldStatesEditor.cs" id="1_67cv3"]
+
+[node name="ArchEcsPlugin" type="PanelContainer"]
+custom_minimum_size = Vector2(0, 250)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_67cv3")
+
+[node name="WorldStates" parent="MarginContainer/HBoxContainer/VBoxContainer" instance=ExtResource("1_00eqw")]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+Title = "WorldStates"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="NewStateInput" type="LineEdit" parent="MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Name (MainMenu, Game, PauseMenu...)"
+
+[node name="NewStateButton" type="Button" parent="MarginContainer/HBoxContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 8
+text = "  +  "
+
+[node name="Systems" parent="MarginContainer/HBoxContainer" instance=ExtResource("1_00eqw")]
+layout_mode = 2
+Title = "Systems"
+
+[node name="Entities" parent="MarginContainer/HBoxContainer" instance=ExtResource("1_00eqw")]
+layout_mode = 2
+Title = "Entities"

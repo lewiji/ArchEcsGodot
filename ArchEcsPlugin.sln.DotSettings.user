@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FArchEcsPlugin_002Faddons_002Farch_005Fecs_005Fgodot_002Flib_002FArch_002EExtended_002FEventBus_002Fnetstandard2_002E0_002FArch_002EEventBus_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FArchEcsPlugin_002Faddons_002Farch_005Fecs_005Fgodot_002Flib_002FArch_002EExtended_002FLowLevel_002Fnet7_002E0_002FArch_002ELowLevel_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FArchEcsPlugin_002Faddons_002Farch_005Fecs_005Fgodot_002Flib_002FArch_002EExtended_002FRelationships_002Fnet7_002E0_002FArch_002ERelationships_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FArchEcsPlugin_002Faddons_002Farch_005Fecs_005Fgodot_002Flib_002FArch_002EExtended_002FSystem_002ESourcegen_002Fnetstandard2_002E0_002FArch_002ESystem_002ESourceGenerator_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FArchEcsPlugin_002Faddons_002Farch_005Fecs_005Fgodot_002Flib_002FArch_002EExtended_002FSystem_002Fnet7_002E0_002FArch_002ESystem_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FArchEcsPlugin_002Faddons_002Farch_005Fecs_005Fgodot_002Flib_002FArch_002ESourceGen_002Fnetstandard2_002E0_002FArch_002ESourceGen_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Flewiji_002Fgodot_002Fprojects_002FArchEcsPlugin_002Faddons_002Farch_005Fecs_005Fgodot_002Flib_002FArch_002Fnet7_002E0_002FArch_002Edll/@EntryIndexedValue">True</s:Boolean>
+	
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/home/lewiji/godot/projects/ArchEcsPlugin/addons/arch_ecs_godot/lib/Arch/net7.0/Arch.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
