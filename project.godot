@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="ArchEcsPlugin"
+config/name="ArchEcsGodot"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -24,7 +24,7 @@ ArchEcs="*res://addons/arch_ecs_godot/ArchEcsAutoload.cs"
 
 [dotnet]
 
-project/assembly_name="ArchEcsPlugin"
+project/assembly_name="ArchEcsGodot"
 
 [editor_plugins]
 

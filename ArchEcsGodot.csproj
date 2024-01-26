@@ -6,6 +6,8 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <LangVersion>12</LangVersion>
     <Nullable>enable</Nullable>
+    <AssemblyName>ArchEcsGodot</AssemblyName>
+    <RootNamespace>ArchEcsGodot</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Arch" Version="1.2.7.1-alpha" />
@@ -15,5 +17,7 @@
     <PackageReference Include="Arch.Relationships" Version="1.0.1" />
     <PackageReference Include="Arch.System" Version="1.0.2" />
     <PackageReference Include="Arch.System.SourceGenerator" Version="1.1.2" />
+    <PackageReference Include="Chickensoft.GoDotTest" Version="1.4.0" />
+    <PackageReference Include="MedallionTopologicalSort" Version="1.0.0" />
   </ItemGroup>
 </Project>

@@ -1,7 +1,8 @@
 using System.Collections.Generic;
+using System.Linq;
 using Godot;
 
-namespace ArchEcsPlugin.Scenes;
+namespace ArchEcsGodot.Scenes;
 
 [Tool]
 public partial class WorldStatesEditor : Control
@@ -16,24 +17,22 @@ public partial class WorldStatesEditor : Control
 		_newStateInput = GetNode<LineEdit>("%NewStateInput");
 		_newStateButton = GetNode<Button>("%NewStateButton");
 		_stateItemList = GetNode<ItemList>("%WorldStates/%ItemList");
-		PopulateStatesFromProjectSettings();
-		_newStateInput.TextChanged += OnNewStateTextChanged;
-		_newStateButton.Pressed += OnNewStateButtonPressed;
-		OnNewStateTextChanged(_newStateInput.Text);
-	}
-
-	void PopulateStatesFromProjectSettings()
-	{
-		var projStates = ProjectSettings.GetSetting(ArchEcsGodotPlugin.GetProjectSettingPath("world_states"));
-		if (projStates.Obj == null) return;
-		foreach (var worldState in projStates.AsStringArray())
+		
+		var worldStatesArray = ArchEcsGodotPlugin.PopulateStatesFromProjectSettings();
+		foreach (var worldState in worldStatesArray)
 		{
 			if (_stateNames.Add(worldState))
 			{
 				_stateItemList.AddItem(worldState);
 			}
 		}
+		
+		_newStateInput.TextChanged += OnNewStateTextChanged;
+		_newStateButton.Pressed += OnNewStateButtonPressed;
+		OnNewStateTextChanged(_newStateInput.Text);
 	}
+
+	
 
 	void OnNewStateTextChanged(string text)
 	{

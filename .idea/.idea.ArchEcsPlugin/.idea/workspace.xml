@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c80dfab3-71ee-4830-b0ca-9c438eaaf7b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/ExampleTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArchEcsPlugin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArchEcsPlugin/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArchEcsPlugin/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArchEcsPlugin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArchEcsPlugin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArchEcsPlugin.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ArchEcsGodot.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArchEcsPlugin.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/ArchEcsGodot.csproj.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArchEcsPlugin.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ArchEcsGodot.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArchEcsPlugin.sln.DotSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArchEcsPlugin.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/arch_ecs_godot/ArchEcsAutoload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/addons/arch_ecs_godot/ArchEcsAutoload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/arch_ecs_godot/ArchEcsGodotPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/addons/arch_ecs_godot/ArchEcsGodotPlugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/arch_ecs_godot/Scenes/EcsTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/addons/arch_ecs_godot/Scenes/EcsTree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/arch_ecs_godot/Scenes/WorldStatesEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/addons/arch_ecs_godot/Scenes/WorldStatesEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/arch_ecs_godot/WorldState/WorldState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/addons/arch_ecs_godot/WorldState/WorldState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2bONAqV4Gps0DUY9llfuKBu6nRG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\LewisPollard\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\LewisPollard\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\LewisPollard\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c80dfab3-71ee-4830-b0ca-9c438eaaf7b5" name="Changes" comment="" />
+      <created>1706082026624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706082026624</updated>
+      <workItem from="1706082029507" duration="928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

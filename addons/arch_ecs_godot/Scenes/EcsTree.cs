@@ -1,5 +1,6 @@
 using Godot;
-using System;
+
+namespace ArchEcsGodot.Scenes;
 
 public partial class EcsTree : PanelContainer
 {

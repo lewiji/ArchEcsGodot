@@ -1,6 +1,9 @@
+using System.Collections.Generic;
+using System.Linq;
 using Godot;
 using Godot.Collections;
-namespace ArchEcsPlugin;
+
+namespace ArchEcsGodot;
 
 [Tool]
 public partial class ArchEcsGodotPlugin : EditorPlugin
@@ -23,6 +26,13 @@ public partial class ArchEcsGodotPlugin : EditorPlugin
    public static string GetProjectSettingPath(string name)
    {
       return $"{ProjectSettingsPrefix}/{name}";
+   }
+   
+   public static IEnumerable<string> PopulateStatesFromProjectSettings()
+   {
+      var projStates = ProjectSettings.GetSetting(ArchEcsGodotPlugin.GetProjectSettingPath("world_states"));
+      if (projStates.Obj == null) return Enumerable.Empty<string>();
+      return projStates.AsStringArray();
    }
 
    void AddProjectSetting(string name, Variant value)
